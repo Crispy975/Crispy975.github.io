@@ -1,0 +1,37 @@
+<!doctype html 5>
+<html>
+    <head>
+        <title>Question 3</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="main.js">
+    </head>
+    <body>
+        <div class="Q3">
+        <img class="Q3-img" src="Retard/Retard3.png">
+        </div>
+
+        <br>
+
+    <div class="Q1-btn">
+        <button onclick="answer(false)">RAGE BAIT</button>
+        <button onclick="answer(false)">RETARD</button>
+    </div>
+
+    <a id="nextLink" href="https://voteforpalmbeachpete.com" style="display:none;">NEXT</a>
+
+    </body>
+
+<script>
+function answer(correct) {
+    if (correct) {
+        alert("Correct!");
+    } else {
+        alert("WE DONT KNOW EITHER");
+    }
+    
+
+    document.getElementById("nextLink").style.display = "block";
+}
+</script>
+
+</html>

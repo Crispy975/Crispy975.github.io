@@ -1,0 +1,36 @@
+<!doctype html 5>
+<html>
+    <head>
+        <title>Question 1</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="main.js">
+    </head>
+    <body>
+        <div class="Q1">
+        <img class="Q1-img" src="RageBait/RageBait1.png">
+        </div>
+
+        <br>
+
+    <div class="Q1-btn">
+        <button onclick="answer(true)">RAGE BAIT</button>
+        <button onclick="answer(false)">RETARD</button>
+    </div>
+
+    <a id="nextLink" href="q2.html" style="display:none;">NEXT</a>
+
+    </body>
+
+<script>
+function answer(correct) {
+    if (correct) {
+        alert("Correct!");
+    } else {
+        alert("Wrong!");
+    }
+
+    document.getElementById("nextLink").style.display = "block";
+}
+</script>
+
+</html>
